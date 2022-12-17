@@ -1,0 +1,365 @@
+/*Nav bar */
+.nav {
+    background-color: pink;
+}
+
+
+a.nav-link { 
+    color: purple;
+    font-size: 30px;
+    text-align: center;
+}
+
+a.nav-link:active {
+    color:purple
+}
+
+img.coquitolashes1 {
+    height: 200px;
+    width: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    ;
+}
+
+img.coquitolashes2 {
+    height: 50%;
+    width: 50%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    ;
+}
+
+/* card styling */
+.container {
+    flex-wrap: wrap;
+    margin-top:2%;
+    margin-bottom:2%;
+    
+}
+
+.card {
+    height: 600px;
+    width: auto;
+}
+
+.coquitolasheslogo2{
+    height: 200px;
+    width: auto;
+}
+
+/* .card-title {
+    margin-top: 2%;
+}
+
+.card-repo, .card-deployed {
+    margin-bottom: 2%;
+}
+
+div.column {
+    display: inline-block;
+}
+
+/* images */
+
+div.card-body {
+    padding: 1%;
+    /* border-radius: 3%; */
+    background-color: hotpink;
+    height: 100%;
+    width:100%;
+} */
+
+/*Portfolio images*/
+.landing_page {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 75%;
+    height: 75%;
+}
+
+.landing_page:hover {
+    transform: scale(1.2);
+}
+
+.password-generator{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 75%;
+    height: 75%;
+}
+
+.password-generator:hover {
+    transform: scale(1.2);
+}
+
+.dashboard {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 75%;
+    height: 75%;
+}
+
+.dashboard:hover {
+    transform: scale(1.2);
+}
+
+.work-scheduler {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 75%;
+    height: 75%;
+}
+
+.work-scheduler:hover {
+    transform: scale(1.2);
+}
+
+.weather-dashboard {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 75%;
+    height: 75%;
+}
+
+.weather-dashboard:hover {
+    transform: scale(1.2);
+}
+
+.note-taker {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 75%;
+    height: 75%;
+}
+
+.note-taker:hover {
+    transform: scale(1.2);
+}
+
+.workout-tracker {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 75%;
+    height: 75%;
+}
+
+.workout-tracker:hover {
+    transform: scale(1.2);
+}
+
+
+/*about me card image */
+.blenda {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 50%;
+    height: 50%;
+}
+
+
+/* Text styling */
+
+.card-repo, .card-deployed {
+    display: inline-block;
+    margin-right: 5%;
+}
+
+.github-logo {
+    width: 10%;
+    height: 10%;
+    /* margin-top: 10%; */
+    margin-right: 5%;
+}
+
+.github-logo:hover {
+    transform: scale(1.2);
+}
+
+.linkedin-logo {
+    width: 10%;
+    height: 10%;
+    margin-right: 5%;
+}
+
+.linkedin-logo:hover {
+    transform: scale(1.2);
+}
+/* Footer */
+
+.footer-container {
+    bottom: 0;
+    padding: 0;
+
+}
+
+header {
+    background-color: hotpink;
+}
+
+h1, h4, h5 {
+    font-weight:lighter;
+    color: white;
+}
+
+.form {
+    background-color: rgb(43, 40, 40);
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2% ;
+    padding: 2%;
+    width: 75%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+h2.title {
+    color:snow;
+    padding-top: 2%;
+    text-align: center;
+    margin-top:  2%;
+}
+
+h2.card-title {
+    color:snow;
+    margin-top:  2%;
+}
+
+a.email, a.email:hover, a.email:visited  {
+    font-size:smaller;
+    color: white;
+}
+
+
+/* input {
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 1%;
+    flex-direction: column;
+    justify-self: center;
+    
+} */
+
+form.contact-form {
+    margin: 2%; 
+    padding: 2%;
+}
+
+.title {
+    margin-top: 2%;
+}
+
+/* .form-name, .form-email {
+    width: 60%;
+    height: 15%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    align-content: center;
+} */
+
+
+.form-message {
+    width: 60%;
+    height: 50%;
+    margin-top: 2%;
+}
+
+
+.submit-button {
+    margin-top: 5%;
+    margin-left: 2%;
+    width: 60%;
+}
+
+
+input, textarea {
+    text-align: center;
+}
+
+
+.skill-logo  {
+    text-align: center;
+    width: 10%;
+    height: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+}
+
+.skill-logo:hover {
+    transform: scale(1.5);
+}
+
+li.skill {
+    width: 40%;
+    display: inline;
+    list-style-type:none;
+}
+
+.resume {
+    background-color: rgb(43, 40, 40);
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 2% ;
+    padding: 1%;
+    width: 70%;
+    height: 60%;
+    border-radius: 20px;
+}
+
+h1, h2, h6 {
+    color: snow;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+p {
+    font-size: 20px;
+    color: snow;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+a, a:hover, a:visited { 
+    color: white; 
+    font-size: 25px;
+}
+
+li.input {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    
+}
+
+li{
+    list-style: none;
+}
+
+.form-name, .form-email {
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    width:50%;
+}
+
+.form-message {
+    padding-bottom: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    width:50%;
+    height: auto;
+}
+.submit-button {
+    background-color:rgb(46, 13, 235);
+    margin-left: auto;
+    margin-right: auto;
+    width:30%;
+    height: 30%;
+    align-self: center;
+    color: white;
+    font-size:medium;
+}
+
