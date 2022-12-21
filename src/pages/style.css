@@ -278,28 +278,15 @@ input, textarea {
     text-align: center;
 }
 
-
-.skill-logo  {
-    text-align: center;
-    width: 10%;
-    height: 10%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-right: 5%;
-}
-
-.skill-logo:hover {
-    transform: scale(1.5);
-}
-
+/* 
 li.skill {
     width: 40%;
     display: inline;
     list-style-type:none;
-}
+} */
 
 .resume {
-    background-color: rgb(43, 40, 40);
+    background-color: hotpink;
     margin-top: 2%;
     margin-left: 20%;
     margin-right: 20%;

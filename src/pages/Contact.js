@@ -39,7 +39,7 @@ export default function Contact() {
           <br></br>
           <br></br>
           <h5 className="email"> Or if you prefer you can email me direcly at:</h5> <br></br>
-          <strong><h4><a className="email" href="mailto:blen.or90@gmail.com" alt="Email me at:">blen.or90@gmail.com</a></h4> </strong>
+          <strong><h4><a className="email" href="email" alt="Email me at:">email</a></h4> </strong>
         </Form>
       </Col>
     </Container>

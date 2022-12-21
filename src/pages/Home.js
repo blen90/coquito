@@ -43,7 +43,6 @@ import {
   MDBCardTitle,
   MDBCardText,
   MDBCardImage,
-  MDBBtn,
   MDBRipple
 } from 'mdb-react-ui-kit';
 
