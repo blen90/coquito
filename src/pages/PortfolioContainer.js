@@ -3,7 +3,7 @@ import NavTabs from '../components/NavTabs';
 import Home from './Home';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
-import Resume from './Resume';
+import Policies from './Policies';
 
 
 export default function PortfolioContainer() {
@@ -20,8 +20,8 @@ export default function PortfolioContainer() {
     if (currentPage === 'Contact') {
       return <Contact />;
     }
-    if (currentPage === 'Resume') {
-      return <Resume />;
+    if (currentPage === 'Policies') {
+      return <Policies />;
     }
     return <Home />;
   };
