@@ -23,8 +23,14 @@ img.coquitolashes1 {
 }
 
 img.coquito{
-    height: 50px;
-    width: 50px;
+    height: 200px;
+    width: 100px;
+}
+
+.service {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color:black;
 }
 img.coquitolashes2 {
     height: 50%;
