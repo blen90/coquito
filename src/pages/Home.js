@@ -1,5 +1,8 @@
-// import React from 'react';
-// import './style.css';
+import React from 'react';
+import './style.css';
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+
 // import {
 //   MDBCard,
 //   MDBCardBody,
@@ -36,29 +39,24 @@
 // }
 
 
-import React from 'react';
-import {
-  MDBCard,
-  MDBCardBody,
-  MDBCardTitle,
-  MDBCardText,
-  MDBCardImage,
-  MDBRipple
-} from 'mdb-react-ui-kit';
+// 
 
 export default function App() {
   return (
-    <div className="container text-center">
-    <MDBCard justify-content-center col-3-sm>
-      <MDBRipple rippleColor='light' rippleTag='div' justify-content-center col-6-md col-3-sm>
-      <MDBCardImage src={process.env.PUBLIC_URL + '/assets/images/coquitolasheslogo2.png'} alt="img1" className="coquitolashes2"/>
-        <a>
-          <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
-        </a>
-      </MDBRipple>
-    </MDBCard>
-    </div>
+
+    <Carousel>
+      <div>
+        <img src={process.env.PUBLIC_URL + '/assets/images/coquitologo1.jpg'} className='coquito'/>
+        <p className="coquitologo1">Classic Lashes</p>
+      </div>
+      <div>
+      <img src={process.env.PUBLIC_URL + '/assets/images/coquitologo1.jpg'} className='coquito'/>
+        <p className="coquitologo1">Classic Lashes</p>
+      </div>
+      <div>
+      <img src={process.env.PUBLIC_URL + '/assets/images/coquitologo1.jpg'} className='coquito'/>
+        <p className="coquitologo1">Classic Lashes</p>
+      </div>
+    </Carousel>
   );
-}
-
-
+};

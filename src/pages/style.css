@@ -1,6 +1,6 @@
 /*Nav bar */
 .nav {
-    background-color: pink;
+    background-color: #FCC5E2;
 }
 
 
@@ -22,6 +22,10 @@ img.coquitolashes1 {
     ;
 }
 
+img.coquito{
+    height: 50px;
+    width: 50px;
+}
 img.coquitolashes2 {
     height: 50%;
     width: 50%;
@@ -194,7 +198,7 @@ div.card-body {
 }
 
 header {
-    background-color: hotpink;
+    background-color: white;
 }
 
 h1, h4, h5 {
@@ -286,7 +290,7 @@ li.skill {
 } */
 
 .resume {
-    background-color: hotpink;
+    background-color: #FCC5E2;
     margin-top: 2%;
     margin-left: 20%;
     margin-right: 20%;
